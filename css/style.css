@@ -1,0 +1,116 @@
+/* =========================== */
+            Settings          
+/* =========================== */
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*  Header Section  */
+.main-header {
+  background-image: url(/images/header.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;  
+}
+
+.overlay {
+  background: #60636e;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: .8;
+}
+
+/* Headline Section */
+.coming-soon {
+  color: #fcf6cf;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.25;
+  padding-bottom: 1.2rem;
+}
+
+.sub-title {
+  color: #fff;
+  text-transform: capitalize;
+  padding-bottom: 2.5rem;
+}
+
+hr {
+  border-color: #1b4c8d;
+  border-width: 3px;
+  max-width: 4rem;
+}
+
+.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-dark {
+  background-color: #1b4c8d;
+  border-color: #1b4c8d;
+}
+
+.btn-dark:hover {
+  background-color: #2777df;
+  border-color: #2777df;
+}
+
+.btn-lm {
+  padding: 1rem 2rem;
+}
+
+/* Responsive Screen Sizes */
+@media only screen and (max-width: 1199px) {
+  .coming-soon {
+    font-size: 3.5rem;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+  }
+
+  .btn-lm {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 860px;
+  }
+
+  .coming-soon {
+    font-size: 3rem;
+  }
+
+  .sub-title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 564px;
+  }
+
+  .coming-soon {
+    font-size: 2.8rem;
+  }
+}
